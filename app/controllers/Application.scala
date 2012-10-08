@@ -3,7 +3,6 @@ package controllers
 import play.api._
 import play.api.mvc._
 import play.api.libs.ws.WS
-import java.net.URL
 import java.net.URLEncoder
 import play.api.Play._
 
@@ -29,5 +28,4 @@ object Application extends Controller {
       }
     }
   }
-
 }
